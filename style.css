@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game {
+    position: relative;
+    width: 700px;
+    height: 450px;
+    background-image: url('images/bg/bg1.jpg');
+}
+
+#wizard {
+    position: absolute; 
+    bottom:7%;
+    left: 6%;
+
+}
+
+#bubble {
+    position: absolute;
+    bottom: 30%;
+    left: 22%;
+    transform: rotateY('deg(15)');
+}
+
+.blobs {
+    transition: filter 0.3s ease;
+}
+
+.blobs:hover {
+    filter: brightness(110%);
+}
+
+
+
+
+
+  
